@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+    background: black;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2 {
+    color: white;
+}
+
+#game {
+    font-size: 0;
+    margin: 10px auto;
+    width: 200px;
+    position: relative;
+}
+
+#world {
+    display: block;
+}
+
+div.row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+div.brick {
+    background-image: url('brick.png');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.empty {
+    background: black;
+}
+
+div.coin {
+    background-image: url('coin.gif');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+div.cherry {
+    background-image: url('cherry.gif');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+div#pacman {
+    background-image: url('pacman.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
